@@ -7,13 +7,10 @@
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
   </head>
   <body>
-    <nav>
-      <ul>
-        <li><a href="{{site.baseurl}}/index.html">Home</a></li>
-        <li><a href="{{site.baseurl}}/news.html">News</a></li>
-
-      </ul>
-    </nav>
+    <header>
+      <h1>Planets of the universe</h1>
+      {% include nav.html %}
+    </header>
     {{ content}}
   </body>
 </html>
